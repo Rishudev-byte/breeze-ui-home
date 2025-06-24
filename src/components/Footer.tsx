@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Facebook, Twitter, Youtube, Twitch, Discord } from 'lucide-react';
+import { Facebook, Twitter, Youtube, Twitch, MessageCircle } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -26,7 +25,7 @@ const Footer = () => {
                 <Twitch className="h-5 w-5" />
               </a>
               <a href="#" className="text-gray-400 hover:text-gaming-cyan transition-colors">
-                <Discord className="h-5 w-5" />
+                <MessageCircle className="h-5 w-5" />
               </a>
             </div>
           </div>
